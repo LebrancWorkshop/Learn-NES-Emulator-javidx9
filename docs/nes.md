@@ -65,7 +65,7 @@
 - **Object Attribute Memory (OAM)**
   - Connect with PPU but not depend on any bus.
   - Used to store the location of the sprites that we see on the screen.
-- **Direct Memory Access (DAM)**
+- **Direct Memory Access (DMA)**
   - Temporary suspends the CPU and transfer memory directly to the OAM
   - CPU can prepare its own address space with where the sprites should be.
   - But it doesn't need to block itself down with manually transfering that information through this
